@@ -39,5 +39,7 @@ SELECT FirstName , LastName FROM TABLE_NAME WHERE Salary > 1000 -> Will only sho
 UPDATE TABLE_NAME SET lastName = "Doe"
 WHERE EID = 3 -> Will update the lastname of employee with EID of 3
 
+DELETE FROM TABLE_NAME
+WHERE EID = 4 -> Will delete the row where EID is 4
 
 

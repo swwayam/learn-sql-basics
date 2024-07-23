@@ -35,3 +35,7 @@ SELECT * FROM employee WHERE Age > 25
 
 UPDATE employee SET LastName = "Suryavanshii"
 WHERE EID  = 3
+
+
+DELETE FROM employee
+WHERE EID = 4
