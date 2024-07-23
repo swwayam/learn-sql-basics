@@ -1,0 +1,7 @@
+Creating a DB for EdTech platform -
+
+1) Employee - 3
+2) Learners -
+	name, email, mobile, transaction, enrolled
+3) Courses -
+	coursed (primary key) , name, course_duration, fees

@@ -1,0 +1,12 @@
+Q) What sequence will the following execute - SELECT FirstName , LastName FROM employee WHERE Salary > 1000
+-> FROM      , WHERE   ,   SELECT 
+   Location    Filter      Display
+
+Q) DDL and DML -
+-> ALTER is a DDL as it is used to change the definition of the data.
+   UPDATE is a DML command as it helps in manipulation of data.
+
+Q) DELETE VS DROP command
+-> DROP is a DDL command. ( trying to change the table / schema )
+   DELETE is a DML command. ( manipulates the data in table )
+

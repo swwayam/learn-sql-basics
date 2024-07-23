@@ -1,0 +1,43 @@
+/*********************** Basics **************************/
+
+SHOW DATABASES -> Shows all the available db in the workspace.
+
+CREATE DATABASE DB_NAME -> Creates a db in the workspace.
+
+CREATE DATABASE IF NOT EXISTS DB_NAME -> self explanatory.
+
+USE DB_NAME -> Starts using the DB 
+
+SELECT database() -> Shows the db in use
+
+
+/******************* Tables *************************/
+
+CREATE TABLE TABLE_NAME(
+
+ col_name datatype others(NOT NULL, AUTO_INCREMENT) etc.
+
+ PRIMARY KEY(COL_NAME) -> uniquely identifies the row. A table can have multiple primary keys.
+
+)
+
+
+DESC TABLE_NAME -> Describes the table / show the table content
+
+DROP TABLE TABLE_NAME -> Drops / Deletes the table.
+
+SHOW TABLES -> Shows all the tables in the Database.
+
+INSERT INTO TABLE_NAME(values,for,all,the,coloumn,seperated,by,comma) -> Creates a new data value in the table.
+
+SELECT * FROM TABLE_NAME -> Selects everything from the table and shows it in the output.
+
+SELECT * FROM TABLE_NAME WHERE age < 25 -> This will show all the data of people below the age of 25
+
+SELECT FirstName , LastName FROM TABLE_NAME WHERE Salary > 1000 -> Will only show the firstname and lastName of the person who's salary is greater than 10k
+
+UPDATE TABLE_NAME SET lastName = "Doe"
+WHERE EID = 3 -> Will update the lastname of employee with EID of 3
+
+
+
